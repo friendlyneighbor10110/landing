@@ -15,6 +15,8 @@ a:focus,a:active{outline: none;}
 nav, footer,header,aside{display:block;}
 
 html,body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -23,6 +25,9 @@ html,body {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    color: #8F95A5;
 }
 input,button,textarea{font-family: inherit;}
 
@@ -36,7 +41,48 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 /* ОБНУЛЕНИЕ */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #e5e5e5;
+
+.container {
+    max-width: 1338px;
+    margin: 0 auto;
+    padding: 0px 15px;
 }
+
+/* HEADER */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 0 115px 0;
+}
+.logo {
+    font-size: 36px;
+    line-height: calc(54 / 36 * 100%);
+    color: #000;
+}
+.logo span {
+    color: #8F95A5;
+}
+.nav__list {
+    display: flex;
+    
+}
+.nav__item:not(:last-child) {
+    margin-right: 25px;
+}
+.nav__link {
+    color: #263238;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(30 / 20 * 100%);
+}
+.header__btn {
+    color: #000;
+    font-size: 24px;
+    line-height: calc(36 / 24 * 100%);
+    background: none;
+    padding: 17px 57px;
+    border: 2px solid #263238;
+    border-radius: 5px; 
+}
+/* HEADER */
