@@ -48,6 +48,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     padding: 0px 15px;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+.btn {
+    color: #fff;
+    background: #263238;
+    border-radius: 5px;
+}
+
 /* HEADER */
 .header__container {
     display: flex;
@@ -86,3 +98,54 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     border-radius: 5px; 
 }
 /* HEADER */
+/* MAIN */
+.page {
+    flex: 1 1 auto;
+}
+/* MAIN */
+/* MAIN-BLOCK */
+.main-block__container {
+    padding-bottom: 147px;
+}
+.main-block__wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-block__body {
+    max-width: 570px; 
+    text-align: left;
+    position: relative;
+}
+
+.main-block__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.main-block__icon {
+    position: absolute;
+    top: 23%;
+    right: 10px;
+}
+.main-block__text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 60px;
+}
+.main-block__btn {
+    padding: 22px 79px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.main-block__bg {
+   
+}
+
+/* MAIN-BLOCK */
